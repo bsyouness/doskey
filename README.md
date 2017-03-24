@@ -1,6 +1,5 @@
 # doskey
 ## Set up Persistent Aliases in Windows
-----
 1. [Create your `aliases.cmd` file](https://gist.github.com/vladikoff/38307908088d58af206b) with your *doskey* commands, put it somewhere in Application Data. I put it here: "C:\Users\$USERNAME\AppData". It looks like this:
 
 ```
@@ -18,4 +17,5 @@
 * Rename to "AutoRun".
 * Change data to the path where your aliases are saved. In my case: "C:\Users\$USERNAME\AppData".
 
-[Other source](https://superuser.com/questions/302194/automatically-executing-commands-when-a-command-prompt-is-opened/302553#302553).
+   [From other source](https://superuser.com/questions/302194/automatically-executing-commands-when-a-command-prompt-is-opened/302553#302553).
+----
