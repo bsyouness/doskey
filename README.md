@@ -3,7 +3,8 @@
 ----
 1. [Create your `aliases.cmd` file](https://gist.github.com/vladikoff/38307908088d58af206b) with your *doskey* commands, put it somewhere in Application Data. I put it here: "C:\Users\$USERNAME\AppData". It looks like this:
 
-```@echo off
+```
+   @echo off
    
    DOSKEY ls=dir
    DOSKEY cd=cd $1$Tdir
